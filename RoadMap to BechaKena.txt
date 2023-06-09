@@ -13,4 +13,4 @@ For the frontend part the Route is "http://localhost:3000/rokomari"
 Django
 =======
 The Django Project has the Scrapper and the API's which are in the scrap->app->views.py file. We'have used sellenium tools or the dynamic page scrapping.
-The JSON Endpoint for the datas is "http://127.0.0.1:8091/app/books_shelf" 
+The JSON Endpoint for the data is "http://127.0.0.1:8091/app/books_shelf" 
