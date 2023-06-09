@@ -1,0 +1,16 @@
+Overview
+=========
+The objective of this project is to create an online data scraping system that will extract data from websites eg: Rokomari, Boibitan etc. and store it into a MySQL database.
+The system will consist of a ReactJS  frontend for sending requests to the API, which will be developed using Django Python framework.
+The system will leverage a scraping package within Django to facilitate the data extraction process.
+The System will Give the users to differentiate the price of the same books between different deployed book seller websites.
+
+React.js
+=========
+The file frontend-main->src->Components->rokomari.jsx has the code to search for the Books regarding it's authors/titles and give the results.
+For the frontend part the Route is "http://localhost:3000/rokomari"
+
+Django
+=======
+The Django Project has the Scrapper and the API's which are in the scrap->app->views.py file. We'have used sellenium tools or the dynamic page scrapping.
+The JSON Endpoint for the datas is "http://127.0.0.1:8091/app/books_shelf" 
